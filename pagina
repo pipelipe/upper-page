@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héctor Felipe Zapata - Página Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Agregamos la biblioteca Font Awesome para los íconos -->
+
+    <style>
+        body {
+            font-family: Arial, Verdana, sans-serif;
+            background-image: url('https://st.depositphotos.com/1031551/4058/i/950/depositphotos_40585411-stock-photo-power-line-with-sun.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+
+        section {
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+
+        footer {
+            background-color: rgba(51, 51, 51, 0.8);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2, p {
+            margin: 0 0 10px 0;
+        }
+
+        /* Estilos para los enlaces */
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s; /* Transición suave del color durante 0.3 segundos */
+        }
+
+        a:hover {
+            color: #ffd700; /* Cambiamos el color del texto al pasar el cursor */
+        }
+
+        /* Estilos para los íconos */
+        .icono {
+            margin-right: 5px; /* Espacio entre el ícono y el texto */
+        }
+
+        /* Estilos para la lista */
+        ul {
+            list-style-type: none; /* Quitamos los puntos de la lista */
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Héctor Felipe Zapata</h1>
+    </header>
+    <section>
+        <h2>Sobre nosotros:</h2>
+        <p>Elec3 instalaciones eléctricas profesionales. Soy Felipe Zapata, me dedico a realizar excelentes proyectos en instalaciones eléctricas, instalaciones residenciales e industriales...</p>
+        <p>Iluminación</p>
+        <p>Domótica</p>
+        <p>Montajes de Baja y Media tensión</p>
+        <p>Proyectos eléctricos en general</p>
+    </section>
+    <section>
+        <h2>Técnico instalador Electricista</h2>
+        <ul>
+            <li><i class="fas fa-tools icono"></i> Proyectos</li>
+            <li><i class="fas fa-plug icono"></i> Instalaciones</li>
+            <li><i class="fas fa-wrench icono"></i> Reparaciones y montajes</li>
+            <li><i class="fas fa-building icono"></i> Obra nueva en general</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Información de contacto</h2>
+        <p><i class="fas fa-envelope icono"></i> Email: electricidad.emc@outlook.es</p>
+        <p><i class="fas fa-phone icono"></i> Phone: +34 675360169</p>
+        <p><i class="fas fa-map-marker-alt icono"></i> Zona: Barcelona y alrededores</p>
+    </section>
+    <footer>
+        &copy; 2024 Héctor Felipe Zapata - Todos los derechos reservados
+    </footer>
+</body>
+</html>
